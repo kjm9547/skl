@@ -1,0 +1,28 @@
+
+
+.title {
+    color: #222;
+    text-align: left;
+    padding-top: 5vh;
+    padding-left: 1vh;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subTitle{
+    white-space: pre-wrap;
+    text-align: left;
+    font-size: 28px;
+}
+
+.activity{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.card{
+    padding-left: 4vh;
+    padding-right: 4vh;
+}

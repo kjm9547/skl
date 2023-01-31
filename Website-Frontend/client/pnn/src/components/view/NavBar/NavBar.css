@@ -1,0 +1,18 @@
+.NavBox{
+    width: 99%;
+    height: 5vh;
+    
+    margin-top: 2vh;
+    margin-left: 1vh;
+
+    background-color: #999;
+    border-radius: 10px;
+
+    align-items: right;
+    align-content: right;
+    text-align: right;
+}
+
+.NavBtn{
+    
+}
