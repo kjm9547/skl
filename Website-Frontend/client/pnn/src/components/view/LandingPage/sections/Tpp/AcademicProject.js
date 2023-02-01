@@ -3,12 +3,7 @@ import './Tpp.css';
 function AcademicProject(){
     return(
         <div>
-        <div className="header">
-
-        </div>
-        <div className="content">
-
-        </div>
+        test1
     </div>
     )
 }

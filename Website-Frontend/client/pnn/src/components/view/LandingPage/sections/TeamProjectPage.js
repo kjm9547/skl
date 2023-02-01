@@ -1,7 +1,64 @@
-import React from "react";
+
+import React, { useState } from "react";
+import "./Tpp/Tpp.css";
+import Nav from "react-bootstrap/Nav";
+import AcademicProject from "./Tpp/AcademicProject";
+import WebProject from "./Tpp/WebProject";
 
 function TeamProjectPage() {
-  return <div>TeamProjectPage</div>;
+  let [num, setNum] = useState(0);
+  return (
+    <div className="container">
+      <div className="header" >
+        <div className="titleImg" style={{ 
+      backgroundImage: `url(${process.env.PUBLIC_URL+'/images/TppBgImage.png'})`
+    }}>
+         
+            P & N
+          
+          <h4>프로젝트 소개</h4>
+          </div>
+        <div className="navigation">
+          <Nav defaultActiveKey="/home" as="ul">
+            <Nav.Item as="li">
+              <Nav.Link
+                eventKey="link-1"
+                onClick={() => {
+                  setNum(0);
+                }}
+              >
+                Link
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Nav.Link
+                eventKey="link-2"
+                onClick={() => {
+                  setNum(1);
+                }}
+              >
+                Link
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </div>
+      </div>
+      <div className="content">
+        <TabPage tab={num}></TabPage>
+      </div>
+    </div>
+  );
+}
+function TabPage(props) {
+  return (
+    <div>
+      {props.tab == 0 ? (
+        <AcademicProject></AcademicProject>
+      ) : (
+        <WebProject></WebProject>
+      )}
+    </div>
+  );
 }
 
 export default TeamProjectPage;

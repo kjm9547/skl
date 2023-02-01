@@ -3,12 +3,7 @@ import './Tpp.css';
 function WebProject(){
     return(
     <div>
-        <div className="header">
-            
-        </div>
-        <div className="content">
-
-        </div>
+       test2
     </div>
     )
     
