@@ -28,7 +28,8 @@
 }
 .content{
     border: solid  black;
-    border-bottom: 0;
+    min-height: 80vh;
+    height: auto;
 }
 .titleImg{
     font-family: 'Noto Sans';
@@ -45,3 +46,24 @@
     background-color: gray;
     height: auto;
 }
+.nav {
+    color: black;
+  }
+  
+  .nav:hover,
+  .nav:focus {
+    color: lightslategray;
+  }
+  .contentDiv{
+    display: grid;
+    grid-template-columns: 1.5fr 7fr 1.5fr;
+    border: solid  black;
+    min-height: 80vh;
+    padding: 10px;
+    margin: 10px;
+  } div{
+    border: solid  black;
+  }
+  .frameImg{
+    height: 40vh;
+  }
