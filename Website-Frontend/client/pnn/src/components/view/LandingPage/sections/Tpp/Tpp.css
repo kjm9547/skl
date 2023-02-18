@@ -1,0 +1,87 @@
+/*
+글꼴 Noto Sans
+글꼴 크기 기준 16 large 20 small 12
+색상 #61dafb
+*/
+
+.container{
+    background-color: cornflowerblue;    
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    
+}
+.header{
+    
+    height: 30vh;
+   
+    
+}
+.headerbgimg{
+    width:auto;
+    height: auto;
+    background-size : contain;
+    background-position : center;
+}
+.content{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: solid  black;
+    min-height: 80vh;
+    
+}
+.titleImg{
+    font-family: 'Noto Sans';
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 30px;
+    background-color: bisque;
+    height: 19vh;
+    background-size : cover;
+  background-position : center;
+}
+.navigation{
+    margin-top: 10px;
+    background-color: gray;
+    height: auto;
+}
+.nav {
+    color: black;
+  }
+  
+  .nav:hover,
+  .nav:focus {
+    color: lightslategray;
+  }
+  .contentDiv{
+    
+    
+    min-height: 80vh;
+    padding: 10px;
+    margin: 10px;
+  }
+  .frameImg{
+    margin-top: 50px;
+    height: 40vh;
+    width: 100vh;
+   
+  }
+.test{
+  width: 100%;
+  height: 500px;
+  background-color: aquamarine;
+}
+
+.frame{
+
+  font-family: 'Noto Sans';
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+ 
+  
+}
+.slideImg{
+  width: 100%;
+  height: 100%;
+}
