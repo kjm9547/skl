@@ -3,15 +3,11 @@
 글꼴 크기 기준 16 large 20 small 12
 색상 #61dafb
 */
-*{
-    
-    font-size: 16px;
-    font: "Noto Sans";
-}
+
 .container{
-    
+    background-color: cornflowerblue;    
     display: grid;
-    grid-template-rows: 3fr 7fr;
+    grid-template-rows: 1fr 9fr;
     
 }
 .header{
@@ -27,9 +23,12 @@
     background-position : center;
 }
 .content{
+    align-items: center;
+    align-content: center;
+    text-align: center;
     border: solid  black;
     min-height: 80vh;
-    height: auto;
+    
 }
 .titleImg{
     font-family: 'Noto Sans';
@@ -55,15 +54,34 @@
     color: lightslategray;
   }
   .contentDiv{
-    display: grid;
-    grid-template-columns: 1.5fr 7fr 1.5fr;
-    border: solid  black;
+    
+    
     min-height: 80vh;
     padding: 10px;
     margin: 10px;
-  } div{
-    border: solid  black;
   }
   .frameImg{
+    margin-top: 50px;
     height: 40vh;
+    width: 100vh;
+   
   }
+.test{
+  width: 100%;
+  height: 500px;
+  background-color: aquamarine;
+}
+
+.frame{
+
+  font-family: 'Noto Sans';
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+ 
+  
+}
+.slideImg{
+  width: 100%;
+  height: 100%;
+}
